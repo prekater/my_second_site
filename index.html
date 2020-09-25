@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Denis Novik</title>
 </head>
 <body>
     <header>
         <div class="wrapper">
             <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Portfolio</li>
-                    <li>Contacts</li>
+                <ul class="main-menu">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contacts</a></li>
                 </ul>
             </nav>
-            <div>
-                Denis Novik
-            </div>
-            <div>
-                UX | UI designer
-                24 years old, Minsk
-            </div>
-            <div>
-                RU | ENG
+            <div class="description">
+                <div class="name">
+                    Denis<br>Novik
+                </div>
+                <div class="info">
+                    UX | UI designer<br>24 years old, Minsk
+                </div>
+                <div class="lang">
+                    <span class="inactive">RU</span> | ENG
+                </div>
             </div>
             <img src="images/me.png" alt="Денис Новик"/>
         </div>
@@ -34,24 +36,24 @@
         <div class="about-me">
             <div class="wrapper">
                 <h2>About me</h2>
-                <p>Hi, I'm Denis – UX/UI designer from Minsk. 
+                <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
                 I'm interested in design and everything connected with it.</p>
                     
-                <p>I'm studying at courses "Web and mobile design 
+                <p>I'm studying at courses "Web and mobile design <br>
                 interfaces" in IT-Academy.</p>
                     
-                <p>Ready to implement excellent projects
+                <p>Ready to implement excellent projects<br>
                 with wonderful people.</p>
             </div>        
         </div>
-        <div clas="skills">
+        <div class="my-skills">
             <div class="wrapper">
                 <h2>Skills</h2>
                 <p>I work in such programs as</p>
-                <ul>
+                <ul class="skills">
                     <li class="skill">
                         <img src="images/ps.png" alt="Photoshop"/>
-                        <p>Adobe Photoshop</p>
+                        <p>Adobe<br>Photoshop</p>
                         <div class="skill-level">
                             <img src="images/star_dark.svg">
                             <img src="images/star_dark.svg">
@@ -63,7 +65,7 @@
                     </li>
                     <li class="skill">
                         <img src="images/ai.png" alt="Adobe Illustrator"/>
-                        <p>Adobe Illustrator</p>
+                        <p>Adobe<br>Illustrator</p>
                         <div class="skill-level">
                             <img src="images/star_dark.svg">
                             <img src="images/star_dark.svg">
@@ -74,7 +76,7 @@
                     </li>
                     <li class="skill">
                         <img src="images/ae.png" alt="Adobe After Effects"/>
-                        <p>Adobe After Effects</p>
+                        <p>Adobe<br>After Effects</p>
                         <div class="skill-level">
                             <img src="images/star_dark.svg">
                             <img src="images/star_dark.svg">
