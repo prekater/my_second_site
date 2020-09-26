@@ -37,7 +37,7 @@ header{
     padding: 0;
     list-style: none;
     border-bottom: 1px solid #828282;
-    
+    font-family: "gilroy-bold", "PT Sans", "Arial", sans-serif;
   }
   .main-menu a {
     display: block;
