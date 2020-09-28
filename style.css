@@ -45,15 +45,17 @@ header{
     text-decoration: none;
   }
 
-  .main-menu .active a {
+  .main-menu a:hover {
     color: #070707;
   }
+
+
  .description{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding-bottom: 10px;
+    margin: 40px 0 30px;
  }
  .name{
     font-family: "gilroy-bold", "PT Sans", "Arial", sans-serif;
@@ -62,7 +64,7 @@ header{
  
  
  .lang {
-    transform: rotate(-90deg) translate(45px, 20px);
+    transform: rotate(-90deg) translate(25px, 20px);
  }
  .lang span {
     color:  #828282;
