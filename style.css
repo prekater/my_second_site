@@ -1,0 +1,148 @@
+@font-face {
+    font-family: gilroy-bold;
+    src: url(fonts/gilroy-bold.ttf);  
+}
+@font-face {
+    font-family: gilroy-medium;
+    src: url(fonts/gilroy-medium.ttf);  
+}
+
+body{
+    font-family: "gilroy-medium", "PT Sans", "Arial", sans-serif;
+    font-size: 18px;
+}
+h2 {
+    font-family: "gilroy-bold", "PT Sans", "Arial", sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p {
+    text-align: center;
+}
+.wrapper {
+    width: 940px;
+    margin: auto auto;
+}
+header{
+    margin-bottom: 100px;
+}
+.main-menu {
+    display: flex;
+    height: 88px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #828282;
+    font-family: "gilroy-bold", "PT Sans", "Arial", sans-serif;
+  }
+  .main-menu a {
+    display: block;
+    color: #828282;
+    text-decoration: none;
+  }
+
+  .main-menu a:hover {
+    color: #070707;
+  }
+
+
+ .description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0 30px;
+ }
+ .name{
+    font-family: "gilroy-bold", "PT Sans", "Arial", sans-serif;
+    font-size: 45px;
+ }
+ 
+ 
+ .lang {
+    transform: rotate(-90deg) translate(25px, 20px);
+ }
+ .lang span {
+    color:  #828282;
+ }
+ .about-me{
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 506px;
+    text-align: center;
+     
+ }
+ .about-me p {
+    font-family: "gilroy-medium", "PT Sans", "Arial", sans-serif;
+    margin-bottom: 40px;
+ }
+.my-skills {
+ 
+   padding: 50px 0;
+}
+.my-skills p {
+    margin-bottom: 40px;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skills p {
+    color: #828282;
+    font-size: 14px;
+}
+.skills li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio{
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 100px 0 10px 0;
+}
+
+.portfolio a {
+    color: #070707;
+}
+
+.portfolio figcaption {
+    margin: 40px 0 100px 0;
+}
+
+.contacts {
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.button {
+    display: inline-block; 
+    background: #070707; /* Серый цвет фона */
+    color: #fff; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    margin-top: 20px;
+   }
+
+   .socials {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       padding: 30px 250px;
+   }
+footer p {
+    font-size: 14px;
+    color: #828282;
+}

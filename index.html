@@ -3,9 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Denis Novik</title>
 </head>
 <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#myskills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="description">
+                <div class="name">
+                    Denis<br>Novik
+                </div>
+                <div class="info">
+                    UX | UI designer<br>24 years old, Minsk
+                </div>
+                <div class="lang">
+                    <span class="inactive">RU</span> | ENG
+                </div>
+            </div>
+            <img src="images/me.png" alt="Денис Новик"/>
+        </div>
+    </header>
+    <main>
+        <div class="about-me" id="aboutme">
+            <div class="wrapper">
+                <h2>About me</h2>
+                <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+                I'm interested in design and everything connected with it.</p>
+                    
+                <p>I'm studying at courses "Web and mobile design <br>
+                interfaces" in IT-Academy.</p>
+                    
+                <p>Ready to implement excellent projects<br>
+                with wonderful people.</p>
+            </div>        
+        </div>
+        <div class="my-skills" id="myskills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <p>I work in such programs as</p>
+                <ul class="skills">
+                    <li class="skill">
+                        <img src="images/ps.png" alt="Photoshop"/>
+                        <p>Adobe<br>Photoshop</p>
+                        <div class="skill-level">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_light.svg">
+                        </div>
+                        
+                    </li>
+                    <li class="skill">
+                        <img src="images/ai.png" alt="Adobe Illustrator"/>
+                        <p>Adobe<br>Illustrator</p>
+                        <div class="skill-level">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_light.svg">
+                            <img src="images/star_light.svg">
+                        </div>
+                    </li>
+                    <li class="skill">
+                        <img src="images/ae.png" alt="Adobe After Effects"/>
+                        <p>Adobe<br>After Effects</p>
+                        <div class="skill-level">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_light.svg">
+                        </div>    
+                    </li>
+                    <li class="skill">
+                        <img src="images/figma.png" alt="Figma"/>
+                        <p>Figma</p>
+                        <div class="skill-level">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_dark.svg">
+                            <img src="images/star_light.svg">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="portfolio" id="portfolio">
+            <div class="wrapper">
+                <h2>Portfolio</h2>
+                <figure>
+                    <img src="images/fashion_shop.png" alt="Online fashion store - Homepage"/>
+                    <figcaption><a href="#">Online fashion store - Homepage</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/reebok.png" alt="Reebok Store - Concept"/>
+                    <figcaption><a href="#">Reebok Store - Concept</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/braun.png" alt="Braun Landing Page - Concept"/>
+                    <figcaption><a href="#">Braun Landing Page - Concept</a></figcaption>
+                </figure>
+            </div>    
+        </div>
+        <div class="contacts" id="contacts">
+            <div class="wrapper">
+                <h2>Contacts</h2>
+                <p>Want to know more or just chat? <br>
+                    You are welcome!</p>
+                <a href="#" class="button">Send message</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="socials">
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+                <a href="#"><img src="images/ig.png" alt="Instagram"/></a>
+                <a href="#"><img src="images/behance.png" alt="Behance"/></a>
+                <a href="#"><img src="images/dribble.png" alt="Dribble"/></a>
+            </div>
+            <div>
+                <p>Like me on<br>
+                    LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
