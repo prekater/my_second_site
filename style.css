@@ -45,11 +45,13 @@ header{
     text-decoration: none;
   }
 
+  .main-menu .active a{
+    color: #070707;
+   
+  }
   .main-menu a:hover {
     color: #070707;
   }
-
-
  .description{
     display: flex;
     flex-direction: row;
@@ -145,4 +147,20 @@ header{
 footer p {
     font-size: 14px;
     color: #828282;
+}
+.to-top {
+    position: fixed;
+    right: 45px;
+	bottom: 45px;
+    height: 25px;
+    width: 100px;
+    background-color: #828282;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.to-top a {
+    text-decoration: none;
+    color: #F6F6F6;
+    
 }
