@@ -149,6 +149,7 @@ footer p {
     color: #828282;
 }
 .to-top {
+    display: block;
     position: fixed;
     right: 45px;
 	bottom: 45px;
